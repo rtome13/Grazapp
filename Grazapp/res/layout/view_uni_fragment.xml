@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" 
+        android:paddingBottom="30dp">
+
+        <ImageView
+            android:id="@+id/tugraz_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/tugraz"
+            android:src="@drawable/tugraz" />
+
+        <TextView
+            android:id="@+id/title_sub_tugraz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tugraz_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/tugraz_subtitle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/motto_tugraz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_sub_tugraz"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/tugraz_motto"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text_tugraz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/motto_tugraz"
+            android:layout_marginTop="25dp"
+            android:text="@string/text_tugraz"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="fill_parent"
+             android:layout_marginTop="20dp"
+            android:layout_below="@+id/text_tugraz"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <ImageView
+            android:id="@+id/unigraz_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/separator"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/unigraz"
+            android:src="@drawable/unigraz" />
+
+        <TextView
+            android:id="@+id/title_sub_unigraz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/unigraz_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/unigraz_subtitle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/motto_unigraz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_sub_unigraz"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/unigraz_motto"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text_unigraz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/motto_unigraz"
+            android:layout_marginTop="25dp"
+            android:text="@string/text_unigraz"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grazapp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="event_name" />
+    <string name="event_type" />
+    <string name="event_location" />
+    <string name="event_locationLabel">Location:</string>
+    <string name="event_category" />
+    <string name="event_start" />
+    <string name="event_startLabel">Starts:</string>
+    <string name="event_end" />
+    <string name="event_endLabel">Ends:</string>
+    <string name="event_description" />
+    <string name="event_decriptionLabel">Description:</string>
+    <string name="title_activity_event_list">Event List</string>
+    <string name="title_activity_view_event">View Event</string>
+    <string name="title_activity_view_sights">ViewSights</string>
+    <string name="title_sights">Top 10 Sights in Graz</string>
+    <string name="tugraz">TU Graz</string>
+    <string name="unigraz">Uni Graz</string>
+    <string name="tugraz_subtitle">Graz University of Technology</string>
+    <string name="tugraz_motto">SCIENCE - PASSION - TECHNOLOGY</string>
+    <string name="unigraz_subtitle">University of Graz</string>
+    <string name="unigraz_motto">Education. Research. Opportunities.</string>
+    <string name="text_tugraz">In world-wide competition with comparable institutions, Graz University of Technology pursues top teaching and research in the fields of the engineering sciences and the technical-natural sciences. An integral part of putting together excellent education and training programs is knowing about the needs of society and the economy. Ultimately, the quality of the education and training at Graz University of Technology is carried by the strength of its knowledge-oriented and applied research. Numerous competence centers, the Christian-Doppler laboratories, special research fields, research focuses, and large EU projects are only a few examples of the University’s extremely active and successful research.</string>
+    <string name="text_unigraz">The University of Graz, which was founded in 1585, is Austria’s second oldest university and one of the largest in the country. Many excellent scientists, amongst them six Nobel laureates, have taught and researched here. With some 31,500 students and 3,900 employees the University of Graz contributes significantly to the vibrating life of the Styrian capital. Its location in Europe encourages a lively scientific, economic and cultural exchange with South-East Europe, from which not only the city benefits, but also its educational institutions.</string>
+    <string name="menu_settings">About</string>
+    <string name="sight_locationLabel">Location:</string>
+    <string name="sight_openingHoursLabel">Opening hours:</string>
+    <string name="sight_closingHoursLabel">Closing hours:</string>
+    <string name="sight_descriptionLabel">Description:</string>
+    <string name="title_activity_view_sight">View Sight</string>
+    <string name="edit_name">Event Name*:</string>
+    <string name="name_field">ex. Birthday Bash</string>
+    <string name="location_field">ex. Graz</string>
+    <string name="date_field">2013-01-01</string>
+    <string name="start_field">e.g. 12:00</string>
+    <string name="end_field">e.g. 24:00</string>
+    <string name="description_field">Describe your event</string>
+    <string name="edit_type">Event Type*:</string>
+    <string name="event_array_prompt">Choose an Event Type</string>
+
+    <string-array name="event_type_array">
+        <item>Choose the type</item>
+        <item>Party</item>
+        <item>ESNEvent</item>
+        <item>Festival</item>
+        <item>Movie</item>
+        <item>Sports</item>
+        <item>Dance</item>
+    </string-array>
+
+    <color name="white">#ffffff</color>
+
+    <string name="event_editStartTime">Start Time*:</string>
+    <string name="event_editEndTime">End Time*:</string>
+    <string name="event_editStartDate">Start Date*:</string>
+    <string name="event_editEndDate">End Date*:</string>
+    <string name="submit">Submit</string>
+    <string name="menu_add_event">Add Event</string>
+    <string name="viewmap">View Map</string>
+    <string name="title_section4">Top 10 Sights</string>
+    <string name="title_section3">Sights Map</string>
+    <string name="title_section2">Events</string>
+    <string name="title_section1">Uni Info</string>
+    <string name="title_activity_currency_fragment">CurrencyFragment</string>
+    <string name="title_section5">Currency calculator</string>
+    <string name="convert">Convert</string>
+    <string name="title_from">From:</string>
+    <string name="title_to">To:</string>
+    <string name="edit_text_amount">Amount:</string>
+    <string name="edit_text_amount_hint">eg. 123.45</string>
+    <string name="text_view_to_default">0</string>
+    <string name="title_activity_map_sights_fragment">MapSightsFragment</string>
+    <string name="past_events">PAST EVENTS</string>
+
+</resources>

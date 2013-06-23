@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:layout_gravity="center" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/title_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_from"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextFrom"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/title_from"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="@string/edit_text_amount_hint"
+            android:inputType="numberDecimal"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textViewTo"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/title_to"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="@string/text_view_to_default"
+            android:paddingRight="7dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/buttonConvert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewTo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="@string/convert" />
+
+        <TextView
+            android:id="@+id/title_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewTo"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginTop="25dp"
+            android:text="@string/title_to"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/buttonConvert"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/textViewTo"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/spinner2"
+            android:layout_alignTop="@+id/editTextFrom"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+</ScrollView>
